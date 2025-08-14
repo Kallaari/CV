@@ -15,30 +15,30 @@ export class AppComponent {
   new GroupItem('lorenzo.terranova96@hotmail.it', 'las la-envelope'),
   new GroupItem('Kallaari', 'lab la-github')];
 
-  info = [new GroupItem('18/09/1996 - 28 anni', 'las la-birthday-cake'),
+  info = [new GroupItem('18/09/1996', 'las la-birthday-cake'),
   new GroupItem('Genova (GE)', 'las la-map-marker-alt'),]
 
-  softSkills = [new GroupItem('Autonomia', '', 8),
-  new GroupItem('Fiducia in se stessi', '', 9),
-  new GroupItem('Flessibilità', '', 10),
-  new GroupItem('Resistenza allo stress', '', 9),
-  new GroupItem('Organizzazione', '', 9),
-  new GroupItem('Gestire Informazioni', '', 9),
-  new GroupItem('Precisione', '', 10),
-  new GroupItem('Apprendimento', '', 9),
-  new GroupItem('Conseguire obiettivi', '', 9),
-  new GroupItem('Intraprendenza', '', 10),
-  new GroupItem('Comunicazione', '', 10),
-  new GroupItem('Problem solving', '', 10),
-  new GroupItem('Team work', '', 10),
+  softSkills = [new GroupItem('Autonomy', '', 8),
+  new GroupItem('Self-confidence', '', 8),
+  new GroupItem('Flexibility', '', 10),
+  new GroupItem('Stress Endurance', '', 9),
+  new GroupItem('Organization', '', 9),
+  new GroupItem('Info Management', '', 9),
+  new GroupItem('Precision', '', 9),
+  new GroupItem('Learning', '', 9),
+  new GroupItem('Goals Achievement', '', 9),
+  new GroupItem('Initiative', '', 10),
+  new GroupItem('Communication', '', 9),
+  new GroupItem('Problem Solving', '', 9),
+  new GroupItem('Team Work', '', 10),
   new GroupItem('Leadership', '', 9)];
 
-  languages = [new GroupItem('Inglese: C1', 'las la-language')];
+  languages = [new GroupItem('Mother Tongue: Italian English: C1 (IELTS)', 'las la-language')];
 
-  futures  = [new GroupItem('Settore Economico: Informatica/Elettronica', 'las la-chart-line'),
-  new GroupItem('Area Professionale: Engineering e Progettazione / Game Design', 'las la-user-tie'),
-  new GroupItem('Provincia Preferita: Genova / Milano', 'las la-city'),
-  new GroupItem('Occupazione Desiderata: Game Designer / Game Developer', 'las la-briefcase'),
-  new GroupItem('Disponibilità a trasferte: Sì, in numero limitato', 'las la-luggage-cart'),
-  new GroupItem('Disponibilità a trasferirsi all estero: Sì, anche in paesi extraeuropei', 'las la-globe-europe')];
+  futures  = [new GroupItem('Economic Sector: Information Systems', 'las la-chart-line'),
+  new GroupItem('Career Field: Engineering and Programming / Game Design', 'las la-user-tie'),
+  new GroupItem('Preferred Cities : Genova (IT), Milano (IT)', 'las la-city'),
+  new GroupItem('Desired Job: Game Designer / Game Developer', 'las la-briefcase'),
+  new GroupItem('Availability for business travels: Yes, even frequently', 'las la-luggage-cart'),
+  new GroupItem('Availability to relocate abroad: Yes, even in non-European countries ', 'las la-globe-europe')];
 }
